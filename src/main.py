@@ -497,7 +497,7 @@ def main():
     parser.add_argument("--train_csv_path", type=str, default="./data/split_data/train.csv")
     parser.add_argument("--test_csv_path", type=str, default="./data/split_data/test.csv")
     parser.add_argument("--epochs", type=int, default=100)
-    parser.add_argument("--batch_size", type=int, default=256)
+    parser.add_argument("--batch_size", type=int, default=32)
     parser.add_argument("--lr", type=float, default=1e-3)
     parser.add_argument("--cls_hidden_dim", type=int, default=768)
     parser.add_argument("--reg_hidden_dim", type=int, default=768)
@@ -505,7 +505,7 @@ def main():
     parser.add_argument("--save_cls_path", type=str, default="./data/best_model_cls_encoder_embedding.pth")
     parser.add_argument("--save_reg_path", type=str, default="./data/best_model_reg_encoder_embedding.pth")
     parser.add_argument("--patience", type=int, default=5)
-    parser.add_argument("--device", type=str, default="cuda:0")
+    parser.add_argument("--device", type=str, default="")
     parser.add_argument("--encoder_model_path", type=str, default="") # your path to the encoder model
     parser.add_argument("--predict", type=bool, default=False)
     parser.add_argument("--predict_question_path", type=str, default="./data/split_data/test.csv")
