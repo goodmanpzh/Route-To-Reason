@@ -29,7 +29,7 @@ This repository contains the codebase for the paper **\[Route to Reason: Adaptiv
 
 ## 📊 Data
 
-We use open-source math evaluation frameworks [Qwen2.5-math](https://github.com/QwenLM/Qwen2.5-Math) and [vLLM](https://github.com/vllm-project/vllm) to generate our dataset. The original dataset will be publicly released after the paper is accepted.
+We use open-source math evaluation frameworks [Qwen2.5-math](https://github.com/QwenLM/Qwen2.5-Math) and [vLLM](https://github.com/vllm-project/vllm) to generate our dataset.
 
 ---
 
